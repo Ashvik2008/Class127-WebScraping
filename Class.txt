@@ -21,3 +21,6 @@ Install selenium:-
 * pip install selenium.
 
 Install ChromeDriver same to User's chrome verion from https://chromedriver.chromium.org/downloads
+
+Only for MAC
+xattr -d com.apple.quarantine /Users/vtai/Downloads/Class127/chromedriver
