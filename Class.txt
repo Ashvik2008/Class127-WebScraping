@@ -1,0 +1,23 @@
+Link:-
+https://exoplanets.nasa.gov/discovery/exoplanet-catalog/
+
+We have to scrape/get date of Exoplanets (201 pages). Later we will analyze this date to know more about exoplanets.
+
+Lets create a virtual environment.
+
+Create Virtual Environment:- python3 -m venv venv
+Activate Virtual Environment:- source venv/bin/activate
+
+BS4
+bs4 (BeautifulSoup) is a python module, which is famously used for parsing text as HTML and then performing actions in it, such as finding specific HTML tags with a particular class/id, or listing out all the li tags inside the ul tags.
+
+Install bs4:-
+* pip install bs4.
+
+SELENIUM
+Selenium, on the other hand, is used to interact with the webpage. It is famously used for automation testing, such as testing the functionality of a website (Login/Logout/etc.) but can be also used to interact with the page such as clicking a button, etc.
+
+Install selenium:-
+* pip install selenium.
+
+Install ChromeDriver same to User's chrome verion from https://chromedriver.chromium.org/downloads
